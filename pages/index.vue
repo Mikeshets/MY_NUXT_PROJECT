@@ -2,8 +2,14 @@
 const nuxt = useNuxtApp()
 </script>
 
-<template>
+<!-- <template>
     <div>  
         <p>This Home Page</p>
+    </div>
+</template> -->
+
+<template>
+    <div>
+        <ContentDoc />
     </div>
 </template>
