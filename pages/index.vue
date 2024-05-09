@@ -3,8 +3,7 @@ const nuxt = useNuxtApp()
 </script>
 
 <template>
-
     <div>  
-        This Home Page
+        <p>This Home Page</p>
     </div>
 </template>

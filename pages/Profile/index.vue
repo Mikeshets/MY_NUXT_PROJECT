@@ -10,5 +10,7 @@ definePageMeta({
         <Alert />
         This is Profile Page
         <Profile />
+        <!-- <img src="~/assets/1.jpg" alt="" srcset=""> -->
+        <img src="@/assets/1.jpg" alt="" srcset="">
     </div>
 </template>
