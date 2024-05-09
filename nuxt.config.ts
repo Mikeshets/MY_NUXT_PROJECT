@@ -1,24 +1,24 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 // import { resolve } from "path";
-import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
+import vuetify, { transformAssetUrls } from "vite-plugin-vuetify";
 
 export default defineNuxtConfig({
   build: {
-    transpile: ['vuetify'],
+    transpile: ["vuetify"],
   },
   modules: [
-    '@vueuse/nuxt',
-    '@nuxt/content',
+    "@vueuse/nuxt",
+    "@nuxt/content",
     (_options, nuxt) => {
-      nuxt.hooks.hook('vite:extendConfig', (config) => {
+      nuxt.hooks.hook("vite:extendConfig", (config) => {
         // @ts-expect-error
-        config.plugins.push(vuetify({ autoImport: true }))
-      })
+        config.plugins.push(vuetify({ autoImport: true }));
+      });
     },
   ],
   alias: {
     // "@": resolve(__dirname, "/"),
-    assets: "/<rootDir>/assets"
+    assets: "/<rootDir>/assets",
   },
   vite: {
     vue: {

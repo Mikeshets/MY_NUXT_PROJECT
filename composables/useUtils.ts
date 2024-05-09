@@ -4,5 +4,4 @@ export const useUtils = () => {
   return { sayHello };
 };
 
-
 // VueUse composable library provides lots of prebuild composables ready to use

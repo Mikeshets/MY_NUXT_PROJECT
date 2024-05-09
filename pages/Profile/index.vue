@@ -1,7 +1,7 @@
 <script setup lang="ts">
 definePageMeta({
-    layout:"custom",
-    middleware:"custom"
+    layout: "custom",
+    middleware: "custom"
 })
 
 // const { sayHello } = useUtils()
