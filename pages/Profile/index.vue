@@ -3,8 +3,8 @@ definePageMeta({
     layout:"custom",
 })
 
-const { sayHello } = useUtils()
-sayHello()
+// const { sayHello } = useUtils()
+// sayHello()
 </script>
 
 
