@@ -1,4 +1,14 @@
 <script setup lang="ts">
+useHead({
+    title: 'Events',
+    meta: [
+        { name: 'description', content: 'My amazing site.' }
+    ],
+    bodyAttrs: {
+        class: 'test'
+    },
+    script: [{ innerHTML: 'console.log(\'Hello world\')' }]
+})
 const sameState = useState("counter")
 // const counter = useState('counter', () => "Lorem ipsum dolor sit amet")
 
