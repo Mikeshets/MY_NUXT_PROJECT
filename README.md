@@ -5,7 +5,7 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 ## Setup
 
 Make sure to install the dependencies:
-Kindly checkout to development branch first
+Kindly checkout to development branch first so that all the dependencies would be avable in side node_modules folder
 
 ```bash
 # npm
