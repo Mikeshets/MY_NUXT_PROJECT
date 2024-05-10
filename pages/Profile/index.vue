@@ -2,6 +2,7 @@
 definePageMeta({
     layout: "custom",
     middleware: "custom"
+    // middleware: ['auth'] // If w want to add moer then one middleware
 })
 
 // const { sayHello } = useUtils()
