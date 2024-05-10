@@ -4,6 +4,7 @@
           <nuxt-link to="/">Home</nuxt-link>
           <nuxt-link to="/Events">Events</nuxt-link>
           <nuxt-link to="/Profile">Profile</nuxt-link>
+          <nuxt-link to="/state">State</nuxt-link>
           <nuxt-link to="/jsx">JSX</nuxt-link>
     </header>
   </div>
