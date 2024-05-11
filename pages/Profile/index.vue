@@ -7,6 +7,8 @@ definePageMeta({
 
 // const { sayHello } = useUtils()
 // sayHello()
+
+const { updateStore } = useStore()
 </script>
 
 
@@ -15,6 +17,8 @@ definePageMeta({
         <Alert />
         This is Profile Page
         <Profile />
+
+        <button @click="updateStore('Hello World')">Update Store</button>
         <!-- <img src="~/assets/1.jpg" alt="" srcset=""> -->
         <img src="@/assets/1.jpg" alt="" srcset="">
     </div>

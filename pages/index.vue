@@ -1,11 +1,11 @@
 <script setup>
-const nuxt = useNuxtApp()
+const nuxt = useNuxtApp();
 </script>
 
 <template>
-    <div>  
-        <p>This Home Page</p>
-    </div>
+  <div>
+    <p>This Home Page</p>
+  </div>
 </template>
 
 <!-- <template>
