@@ -56,6 +56,7 @@ export default defineNuxtConfig({
     // Redirects legacy urls
     "/old-page": { redirect: "/new-page" },
   },
+  plugins: ["~/plugins/pinia.ts"],
 });
 
 // Documentation on how to add vuetify to a nuxt project on the following link
