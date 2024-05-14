@@ -30,7 +30,7 @@ const { $api } = useNuxtApp();
 
 const { data: usersList, pending, error } = await $api.users.getUsers();
 
-console.log(toRaw(pending.value));
+// console.log(toRaw(pending.value));
 
 // console.log(toRaw(usersList.value));
 </script>

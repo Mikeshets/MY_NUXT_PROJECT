@@ -28,7 +28,7 @@
 <script setup>
 const route = useRoute();
 // // id = route.params.id
-console.log(route.params.id);
+// console.log(route.params.id);
 const { $api } = useNuxtApp();
 
 const {
@@ -37,5 +37,5 @@ const {
   error,
 } = await $api.users.getUser(route.params.id);
 
-console.log(toRaw(user.value));
+// console.log(toRaw(user.value));
 </script>

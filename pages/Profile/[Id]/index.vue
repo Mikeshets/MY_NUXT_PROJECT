@@ -1,6 +1,6 @@
 <script setup>
 const route = useRoute();
-console.log( route.params.Id );
+// console.log( route.params.Id );
 </script>
 
 <template>

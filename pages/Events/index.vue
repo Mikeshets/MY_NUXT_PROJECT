@@ -8,7 +8,7 @@ const { store } = useStore();
 const { $sayHello } = useNuxtApp();
 // console.log(useNuxtApp())
 definePageMeta({
-  // middleware:"custom-test"
+  middleware:"custom"
 });
 </script>
 
