@@ -5,8 +5,10 @@
       <nuxt-link to="/Events">Events</nuxt-link>
       <nuxt-link to="/Profile">Profile</nuxt-link>
       <nuxt-link to="/state">State</nuxt-link>
-      <nuxt-link to="/jsx">JSX</nuxt-link>
+      <nuxt-link to="/repotest">Repo-Test</nuxt-link>
+      <nuxt-link to="/users">Users-Test</nuxt-link>
       <nuxt-link to="/pinia">Pinia</nuxt-link>
+      <nuxt-link to="/repoapi">Repo</nuxt-link>
     </header>
   </div>
 </template>

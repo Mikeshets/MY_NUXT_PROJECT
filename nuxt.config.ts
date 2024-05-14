@@ -57,6 +57,11 @@ export default defineNuxtConfig({
     "/old-page": { redirect: "/new-page" },
   },
   plugins: ["~/plugins/pinia.ts"],
+  runtimeConfig: {
+    public: {
+      apiBaseUrl: process.env.API_BASE_URL,
+    },
+  },
 });
 
 // Documentation on how to add vuetify to a nuxt project on the following link
