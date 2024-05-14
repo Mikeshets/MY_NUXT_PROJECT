@@ -9,6 +9,7 @@
       <nuxt-link to="/users">Users-Test</nuxt-link>
       <nuxt-link to="/pinia">Pinia</nuxt-link>
       <nuxt-link to="/repoapi">Repo</nuxt-link>
+      <nuxt-link to="/ExampleComponent">ExampleComponent</nuxt-link>
     </header>
   </div>
 </template>
