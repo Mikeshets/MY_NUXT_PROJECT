@@ -25,8 +25,5 @@
     "tailwindcss": "^3.4.3",
     "vite-plugin-vuetify": "^2.0.3",
     "vuetify": "^3.6.4"
-  },
-  "overrides": {
-  "vue": "latest"
-}
+  }
 }
