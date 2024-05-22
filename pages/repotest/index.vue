@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Welcome to Test</h1>
+    <h1>Welcome to repository Test</h1>
     <div v-for="product in productsList" :key="product.id" class="card">
       <div class="title">{{ product.title }}</div>
       <div class="thumbnail"><img :src="product.image" /></div>

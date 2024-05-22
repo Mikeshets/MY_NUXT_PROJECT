@@ -5,6 +5,7 @@
       <nuxt-link to="/state">State</nuxt-link>
       <nuxt-link to="/repotest">Repo-Test</nuxt-link>
       <nuxt-link to="/users">Users-Test</nuxt-link>
+      <nuxt-link to="/testonserver">Server Test</nuxt-link>
     </header>
   </div>
 </template>
