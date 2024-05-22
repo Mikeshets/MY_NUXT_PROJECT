@@ -36,26 +36,26 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  routeRules: {
-    // Homepage pre-rendered at build time
-    "/": { prerender: true },
-    // Events page generated on demand, revalidates in background, cached until API response changes
-    "/events": { swr: true },
-    // Nested pages inside Events are generated on demand, revalidates in background, cached for 1 hour (3600 seconds)
-    "/events/**": { swr: 3600 },
-    // Profile page generated on demand, revalidates in background, cached on CDN for 1 hour (3600 seconds)
-    "/profile": { isr: 3600 },
-    // Nested pages inside Profile are generated on demand once until next deployment, cached on CDN
-    "/profile/**": { isr: true },
-    // Admin dashboard renders only on client-side
-    "/admin/**": { ssr: false },
-    // State renders only on client-side
-    "/state": { ssr: false },
-    // Add cors headers on API routes
-    "/api/**": { cors: true },
-    // Redirects legacy urls
-    "/old-page": { redirect: "/new-page" },
-  },
+  // routeRules: {
+  //   // Homepage pre-rendered at build time
+  //   "/": { prerender: true },
+  //   // Events page generated on demand, revalidates in background, cached until API response changes
+  //   "/events": { swr: true },
+  //   // Nested pages inside Events are generated on demand, revalidates in background, cached for 1 hour (3600 seconds)
+  //   "/events/**": { swr: 3600 },
+  //   // Profile page generated on demand, revalidates in background, cached on CDN for 1 hour (3600 seconds)
+  //   "/profile": { isr: 3600 },
+  //   // Nested pages inside Profile are generated on demand once until next deployment, cached on CDN
+  //   "/profile/**": { isr: true },
+  //   // Admin dashboard renders only on client-side
+  //   "/admin/**": { ssr: false },
+  //   // State renders only on client-side
+  //   "/state": { ssr: false },
+  //   // Add cors headers on API routes
+  //   "/api/**": { cors: true },
+  //   // Redirects legacy urls
+  //   "/old-page": { redirect: "/new-page" },
+  // },
   plugins: ["~/plugins/pinia.ts"],
   runtimeConfig: {
     public: {
